@@ -1,0 +1,7 @@
+order_id,invoice_number,lead_id,student_id,parent_mobile,class_id,plan_sessions,currency,standard_amount,discount_applied,net_payable_amount,payment_plan_type,payment_gateway,payment_link_status,gateway_error_reason,paid_at,updated_at
+99401,BMB-NEW-2026-99401,801,78001,+91-9820XXXX33,104,48,INR,12000.0,0.0,12000.0,Full_Payment,Razorpay,Unpaid_Link_Opened_Twice,NULL,NULL,2026-11-02 21:15:00
+99402,BMB-NEW-2026-99402,802,78002,+971-5299XXX76,205,48,AED,12000.0,100.0,1100.0,Full_Payment,Stripe_UAE,Unpaid_Link_Not_Clicked,NULL,NULL,2026-11-02 19:35:00
+99403,BMB-NEW-2026-99403,803,78003,+91-9811XXXX66,101,48,INR,9500.0,4000.0,5500.0,Unauthorized_Custom_Link,Razorpay,Unpaid_Flagged_Discount_Anomaly,Discount >15% Max Cap without Manager Approval,NULL,2026-11-03 11:55:00
+99404,BMB-NEW-2026-99404,804,78004,+1-65044XXX22,302,48,USD,265.0,0.0,265.0,Full_Payment,Stripe_US,Paid,NULL,2026-11-03 11:40:12,2026-11-03 11:40:12
+99405,BMB-NEW-2026-99405,805,78005,+91-9810XXXX88,104,48,INR,12000.0,1200.0,5400.0,Installment_1_of_2 (50% Down),Razorpay,Payment_Failed,Bank_OTP_Timeout_On_UPI_Mandate,NULL,2026-11-03 20:45:00
+99409,BMB-NEW-2026-99409,809,78009,+44-77009XXX12,205,48,GBP,210.0,0.0,210.0,Full_Payment,Stripe_UK,Payment_Failed,3DS_Authentication_Declined_By_Issuer,NULL,2026-11-03 14:15:00

@@ -1,0 +1,7 @@
+call_id,lead_id,counsellor_id,counsellor_name,call_started_at,call_duration_sec,rep_talk_time_pct,parent_talk_time_pct,language_detected,transcript_filename,rep_logged_disposition,rep_logged_crm_note
+7001,801,204,Rohan S***,2026-11-02 17:45:00,860,46,54,English,call_01_LEAD801_aarav_english_spouse_objection.txt,Call back tomorrow,will ask husband and tell tomorrow
+7002,802,209,Sneha V***,2026-11-02 19:15:00,965,68,32,English,call_02_LEAD802_zoya_maths_dubai_price_dumping.txt,Price issue,price high thinking
+7003,803,212,Amitabh R***,2026-11-03 11:45:00,700,84,16,English,call_03_LEAD803_vihaan_phonics_compliance_redflag.txt,Interested,good call sent payment link will pay today
+7004,804,204,Rohan S***,2026-11-03 09:45:00,730,44,56,English,call_04_LEAD804_meera_gita_usa_schedule_and_paid_trap.txt,Schedule issue,wants weekend batch sent link
+7005,805,215,Pooja M***,2026-11-03 13:15:00,910,48,52,Hinglish (Hindi + English),call_05_LEAD805_kabir_english_hinglish_competitor_emi.txt,Thinking,comparing with planetspark and school exam going on
+7006,806,218,Karan K***,2026-11-03 15:10:00,640,74,26,English,call_06_LEAD806_ananya_chess_child_hesitant_rep_gaming_rubric.txt,Child not interested,kid did not like demo

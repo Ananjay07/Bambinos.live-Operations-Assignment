@@ -1,0 +1,20 @@
+CALL METADATA:
+Call ID: 7005 | Lead ID: LEAD-805 | Student: Ka***r Gu***a (9 yrs, Grade 4)
+Parent: Ra***h Gu***a (Father) | Geo: India (Delhi NCR - IST)
+Course Pitched: Young Communicators (Public Speaking - 48 Sessions)
+Counsellor: Pooja M*** (ID: 215) | Duration: 15m 10s | Rep Talk Ratio: 48% | Language: Hinglish (Hindi + English)
+IMPORTANT SYSTEM NOTE: After this call, parent tried paying Installment 1 (Rs. 5,400) at 8:45 PM IST via Razorpay (Order #99405), but payment FAILED due to 'Bank_OTP_Timeout_On_UPI_Mandate'.
+
+--- TRANSCRIPT START ---
+[00:10] COUNSELLOR (Pooja): Namaste Rajesh sir! Pooja bol rahi hoon Bambinos.live se. Abhi Kabir ki Young Communicators demo class khatam hui Ms. Rhea ke saath. Kaisa laga sir aapko Kabir ka participation aaj?
+[00:24] PARENT (Rajesh): Haan Pooja ji, class toh acchi thi. Dekhiye, Kabir written English aur school grammar test mein 90% le aata hai, lekin jab bolne ki baari aati hai—chahe school assembly ho ya relatives ke saamne—woh dimaag mein Hindi se English translate karta hai aur phir "umm... matlab..." karke atak jaata hai.
+[00:46] COUNSELLOR (Pooja): Bilkul sahi pakda sir aapne! Ms. Rhea ne bhi apni report mein yahi likha hai ki Kabir ki grammar strong hai, bas spoken fluency mein woh mental translation ki wajah se rukta hai. Aaj jab Ms. Rhea ne usko 'PEEL Method' sikhaya—Point, Evidence, Explain, Link—toh Kabir ne "Should homework be banned?" topic par poore 60 seconds bina ek bhi "umm" bole speech di!
+[01:14] PARENT (Rajesh): Haan, woh part maine dekha tha, kaafi confident lag raha tha uss time. Lekin Pooja ji, do-teen baatein hain. Ek toh pichle hafte humne PlanetSpark ka bhi demo liya tha, unka 1-on-1 class hai aur woh log roz phone kar rahe hain. Doosra, abhi 15 tarikh se Kabir ke school ke half-yearly exams shuru ho rahe hain, toh mummy bol rahi hain exams ke baad dekhenge.
+[01:40] COUNSELLOR (Pooja): Dono bahut genuine points hain sir. Pehle PlanetSpark wale point par bataun—public speaking aur debate akele 1-on-1 kamre mein nahi aati sir, kyunki stage fear tabhi jaata hai jab bacha 5-6 peers ke saamne bolna seekhe aur dusre bachon ke arguments ka counter kare. Isiliye Bambinos mein hum strictly 6-kids small group rakhte hain jahan har bache ko peer audience milti hai, aur price bhi 1-on-1 se almost half padta hai.
+[02:10] PARENT (Rajesh): Yeh baat toh aapki sahi hai, akele teacher ke saamne bolne se stage fear nahi khulega. Par school exams ke beech mein kaise manage hoga?
+[02:20] COUNSELLOR (Pooja): Sir, haftey mein sirf 2 classes hoti hain—50 minutes each—aur exam week mein hamare portal par 'Exam Pause / Reschedule' button hota hai, jisse aapki ek bhi paid class waste nahi hoti. In fact, agar hum abhi weekend batch (Sat-Sun 11 AM) se start karein, toh Kabir ka Ms. Rhea ke saath flow bana rahega.
+[02:42] PARENT (Rajesh): Accha, class waste nahi hogi phir theek hai. Fees aapne Rs. 12,000 batayi 6 months ki? Dekhiye festival aur school fee ke chakkar mein abhi ek saath Rs. 12,000 dena thoda tight padega. Koi 2-part installment ya discount option hai kya?
+[03:00] COUNSELLOR (Pooja): Zaroor sir! Hamari official policy ke andar main aapko 10% scholar discount de sakti hoon, jisse 48 classes ki fee Rs. 12,000 ki jagah Rs. 10,800 ho jayegi. Aur aapko ek saath nahi dena—aap 2 easy installments mein kar sakte hain: aaj sirf 50% yaani Rs. 5,400 dekar Kabir ki Ms. Rhea ke batch mein seat lock kar lijiye, aur baaki Rs. 5,400 next month (30 days baad) dena hai, zero extra interest!
+[03:28] PARENT (Rajesh): Rs. 5,400 abhi aur Rs. 5,400 next month? Haan, yeh kaafi comfortable hai. Aap mujhe WhatsApp par yeh Rs. 5,400 wala official payment link aur PEEL method ka roadmap bhej dijiye, main raat ko dinner ke baad UPI se kar dunga.
+[03:44] COUNSELLOR (Pooja): Done sir! Main abhi WhatsApp par link aur Ms. Rhea ka feedback note bhej rahi hoon. Thank you Rajesh sir!
+--- TRANSCRIPT END ---

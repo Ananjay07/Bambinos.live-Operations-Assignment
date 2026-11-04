@@ -1,0 +1,20 @@
+CALL METADATA:
+Call ID: 7004 | Lead ID: LEAD-804 | Student: Me***a Pa***l (9 yrs, Grade 4)
+Parent: Ne***a Pa***l (Mother) | Geo: International (USA - California PST)
+Course Pitched: Little Yogi (Bhagavad Gita US Track - 48 Sessions)
+Counsellor: Rohan S*** (ID: 204) | Duration: 12m 10s | Rep Talk Ratio: 44%
+IMPORTANT SYSTEM NOTE: Call took place at 09:45 AM PST. At 11:40 AM PST (2 hours after call), Parent completed USD 265 payment via Stripe (Order #99404 / BMB-NEW-2026-99404), but Counsellor forgot to move CRM stage from 'Payment_Link_Sent' to 'Enrolled_Paid'!
+
+--- TRANSCRIPT START ---
+[00:10] COUNSELLOR (Rohan): Hi Neha! Good morning over there in California. It was wonderful seeing Meera in Acharya Aditi's Little Yogi session today. How did Meera feel after the class ended?
+[00:22] PARENT (Neha): Oh, she loved it, Rohan! Growing up here in the Bay Area, whenever my husband and I try to tell her Indian mythological stories or values at home, she rolls her eyes and thinks it's a parent lecture. Today, when Acharya Aditi connected that Sanskrit shloka on 'Samatvam'—staying calm under pressure—to Meera's gymnastics balance-beam routine, Meera actually wrote the verse meaning down in her personal diary!
+[00:50] COUNSELLOR (Rohan): That gives me goosebumps! In fact, Acharya Aditi wrote in her evaluation note right after class that Meera's question—"Why did Arjuna feel overwhelmed before the event even started?"—was the most thoughtful question of the week. That is the core of Little Yogi: we teach the 8 Gunas—focus, resilience, gratitude, emotional regulation—through interactive stories and reflection, never dry rote memorization.
+[01:18] PARENT (Neha): That is exactly what we were looking for. I am 100% sold on enrolling her in the 48-session track. The only blocker is the batch schedule shown on my portal—it says Tuesdays and Thursdays at 5:00 PM PST. Meera has her competitive gymnastics team practice every Tuesday and Thursday from 4:30 PM to 6:30 PM PST, so she cannot make weekday evenings.
+[01:42] COUNSELLOR (Rohan): Let me check Acharya Aditi's live US batch roster right now so we don't lose that teacher connection... Give me 10 seconds.
+[01:52] PARENT (Neha): Sure, take your time. If we can get Acharya Aditi on weekends, that would be ideal.
+[02:00] COUNSELLOR (Rohan): Good news! Acharya Aditi leads a dedicated US West Coast batch on Saturdays and Sundays at 9:30 AM PST. Right now there are 4 kids enrolled—all 9 to 10 years old from California and Seattle—so Meera will fit right in and still have her whole weekend free after 10:20 AM.
+[02:20] PARENT (Neha): Saturday and Sunday at 9:30 AM PST with Acharya Aditi is literally perfect! And the fee is USD 265 for the full 48 sessions, right?
+[02:30] COUNSELLOR (Rohan): Yes, USD 265 all-inclusive for 48 live classes, digital storybooks, and parent reflection guides, backed by our 14-day 100% refund policy.
+[02:42] PARENT (Neha): Awesome. WhatsApp me the Stripe enrollment link and the Sat-Sun 9:30 AM PST batch confirmation right now. I am walking into a 90-minute product standup meeting at work, so I'll pay on the Stripe link as soon as my meeting finishes around 11:30 AM PST.
+[02:58] COUNSELLOR (Rohan): Just sent it on your WhatsApp, Neha! Welcome to the Bambinos family in advance—Meera is going to love Saturday mornings with Acharya Aditi!
+--- TRANSCRIPT END ---

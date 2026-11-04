@@ -1,0 +1,20 @@
+CALL METADATA:
+Call ID: 7002 | Lead ID: LEAD-802 | Student: Zo***a Sh***h (10 yrs, Grade 5)
+Parent: Am***a Sh***h (Mother) | Geo: UAE / GCC (Dubai - GST)
+Course Pitched: Unbox Maths (Brainiac Track - 48 Sessions)
+Counsellor: Sneha V*** (ID: 209) | Duration: 16m 05s | Rep Talk Ratio: 68%
+
+--- TRANSCRIPT START ---
+[00:12] COUNSELLOR (Sneha): Hello Amina ma'am, Sneha calling from Bambinos.live regarding Zoya's Brainiac Maths demo session today with Mr. Vikram. How did you find the class?
+[00:22] PARENT (Amina): Zoya enjoyed the interactive puzzles on screen, she told me it felt like a game rather than a boring class.
+[00:30] COUNSELLOR (Sneha): Yes ma'am, all our classes are gamified and interactive! So let me quickly tell you our fee structure for Dubai students. For the 6-month package of 48 classes it is AED 1,200, and for the 12-month package of 96 classes it is AED 2,100. Which package would you like to enroll Zoya in today?
+[00:50] PARENT (Amina): Wait—AED 1,200 for 6 months?! Hold on. Right here in our building in Karama, a retired school teacher takes offline maths tuition 3 days a week for AED 350 and gives her 3 printed worksheets every week. Why would I pay more than double for an online class?
+[01:12] COUNSELLOR (Sneha): Ma'am, because Bambinos is a global company featured on Shark Tank India and we have top 1% certified teachers. Building tuition is just old-fashioned rote learning where many kids sit together.
+[01:28] PARENT (Amina): Look, I don't care about Shark Tank. My concern is Zoya's British curriculum exams here in Dubai. Whenever the question paper has straight numbers like 45 x 18, she gets full marks. The moment the paper has a 4-line story problem—like fractions or ratios in a word puzzle—she panics, guesses the wrong operation, or leaves it blank.
+[01:52] COUNSELLOR (Sneha): Yes ma'am, don't worry, our curriculum covers fractions, decimals, geometry, and word problems also. We give Zing app quizzes after every class and parent progress reports every month.
+[02:06] PARENT (Amina): Did the teacher today notice why she struggles with word problems? I was busy in the kitchen during the middle of the session so I missed what he did with her.
+[02:18] COUNSELLOR (Sneha): Uh, let me check... yes, the teacher gave her some puzzles and she did well. Ma'am, since you are comparing the fee, if you complete the payment right now on this call, I can generate a special AED 100 instant discount link so you get the AED 1,200 course for AED 1,100.
+[02:38] PARENT (Amina): Look, AED 100 off doesn't answer my question. I don't even know what method your teacher used today or how 2 classes a week will fix her British curriculum word-problem fear better than her local tutor.
+[02:54] COUNSELLOR (Sneha): Ma'am the discount link expires in 30 minutes because batch seats fill very fast in Dubai. Let me WhatsApp you the Stripe payment link right now, please click and pay in 30 minutes.
+[03:08] PARENT (Amina): Please don't rush me. Just send me the curriculum details on WhatsApp. I'll discuss with her local tutor and think about it. Bye.
+--- TRANSCRIPT END ---
