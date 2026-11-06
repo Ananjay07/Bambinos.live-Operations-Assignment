@@ -1,0 +1,12 @@
+{
+  "total_invoices_audited": 13,
+  "total_forms_submitted": 12,
+  "auto_approved_zero_touch": 7,
+  "total_flagged_exceptions": 10,
+  "critical_exceptions": 3,
+  "high_severity_exceptions": 1,
+  "medium_severity_exceptions": 2,
+  "info_warnings_resolved": 4,
+  "notifications_drafted": 18,
+  "timestamp": "2026-11-06T21:17:26.923Z"
+}

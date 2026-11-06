@@ -1,0 +1,8 @@
+booking_id,invoice_id,student_id,student_name,parent_name,educator_id,educator_name,class_id,classbatch_id,batch_name,sessions_booked,schedule_days,schedule_time,amount_paid,currency,auto_approved_at,status
+AUTO-BKG-1001,84901,68101,Aa***v Sh***a,Pr***a Sh***a,1102,Ms. Rhea B***,104,9201,YC-G4-Batch-A,24,"Tue,Thu",17:00:00,12000.00,INR,2026-11-06 21:17:26,SCHEDULED_ZERO_TOUCH
+AUTO-BKG-1002,84902,68102,Di***a Na***r,Ka***k Na***r,1108,Mr. Vikram S***,205,9202,BM-G5-Batch-C,24,"Mon,Wed",18:00:00,10500.00,INR,2026-11-06 21:17:26,SCHEDULED_ZERO_TOUCH
+AUTO-BKG-1003,84903,68103,Ka***r Ve***a,Ne***a Ve***a,1115,Acharya Nancy S***,301,9203,LY-G3-Batch-B,24,"Wed,Fri",16:30:00,9000.00,INR,2026-11-06 21:17:26,SCHEDULED_ZERO_TOUCH
+AUTO-BKG-1004,84904,68104,An***a Iy***r,Ri***u Iy***r,1102,Ms. Rhea B***,104,9201,YC-G4-Batch-A,24,"Tue,Thu",17:00:00,12000.00,INR,2026-11-06 21:17:26,SCHEDULED_ZERO_TOUCH
+AUTO-BKG-1005,84907,68107,Vi***n Jo***i,Po***a Jo***i,1125,Ms. Simran D***,101,9207,PH-G1-Batch-F,24,"Mon,Thu",15:30:00,7600.00,INR,2026-11-06 21:17:26,SCHEDULED_ZERO_TOUCH
+AUTO-BKG-1006,84908,68108,Si***a Ma***a,Ro***n Ma***a,1115,Acharya Nancy S***,302,9208,LY-US-Batch-G,24,"Sat,Sun",09:30:00,22000.00,INR,2026-11-06 21:17:26,SCHEDULED_ZERO_TOUCH
+AUTO-BKG-1007,84913,68113,De***a Me***a,Ar***n Ме***a,1130,Ms. Mary M***,501,9213,SC-G4-Batch-K,24,"Tue,Thu",18:00:00,11500.00,INR,2026-11-06 21:17:26,SCHEDULED_ZERO_TOUCH

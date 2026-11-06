@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bambinos.live — Head of Operations Renewal & Scheduling Command Center</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-indigo-900 text-white px-8 py-4 shadow-lg flex justify-between items-center border-b border-indigo-700">
+    <div class="flex items-center space-x-3">
+      <div class="bg-amber-400 text-indigo-950 font-black p-2 rounded-lg text-lg tracking-wider">BAMBINOS</div>
+      <div>
+        <h1 class="text-xl font-bold tracking-tight">Live Ops Renewal & Scheduling Cockpit</h1>
+        <p class="text-xs text-indigo-200">Autonomous Pipeline • Daily Head of Operations Morning Radar</p>
+      </div>
+    </div>
+    <div class="flex items-center space-x-4">
+      <div class="text-right">
+        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+          <span class="w-2 h-2 mr-1.5 bg-emerald-400 rounded-full animate-pulse"></span> Pipeline Live
+        </span>
+        <div class="text-xs text-indigo-300 mt-0.5">Simulated Run: 13 Production Invoices</div>
+      </div>
+      <button onclick="location.reload()" class="bg-indigo-700 hover:bg-indigo-600 px-3 py-1.5 rounded-md text-xs font-medium transition flex items-center shadow-sm">
+        <i class="fa-solid fa-rotate mr-1.5"></i> Refresh Radar
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-6 space-y-6">
+
+    <!-- KPI Metric Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+      <!-- Invoices -->
+      <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Total Invoices</p>
+            <h3 class="text-2xl font-bold text-slate-900 mt-1">13</h3>
+          </div>
+          <div class="p-2 bg-indigo-50 text-indigo-600 rounded-lg">
+            <i class="fa-solid fa-file-invoice-dollar text-lg"></i>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-slate-600 flex items-center">
+          <span class="text-emerald-600 font-semibold mr-1">₹1,50,600</span> total volume
+        </div>
+      </div>
+
+      <!-- Zero-Touch Auto-Approved -->
+      <div class="bg-white p-5 rounded-xl border border-emerald-200 shadow-sm hover:shadow-md transition bg-gradient-to-br from-white to-emerald-50/30">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-xs font-semibold text-emerald-700 uppercase tracking-wider">Zero-Touch Approved</p>
+            <h3 class="text-2xl font-bold text-emerald-600 mt-1">7 <span class="text-sm font-normal text-slate-500">(54%)</span></h3>
+          </div>
+          <div class="p-2 bg-emerald-100 text-emerald-700 rounded-lg">
+            <i class="fa-solid fa-bolt-lightning text-lg"></i>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-emerald-700 flex items-center">
+          <i class="fa-solid fa-clock-fast mr-1"></i> TAT: <strong>&lt; 30 seconds</strong> (vs 48h manual)
+        </div>
+      </div>
+
+      <!-- Stuck Invoices >12h -->
+      <div class="bg-white p-5 rounded-xl border border-rose-200 shadow-sm hover:shadow-md transition bg-gradient-to-br from-white to-rose-50/30">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-xs font-semibold text-rose-600 uppercase tracking-wider">Orphaned Invoices (&gt;12h)</p>
+            <h3 class="text-2xl font-bold text-rose-600 mt-1">2</h3>
+          </div>
+          <div class="p-2 bg-rose-100 text-rose-700 rounded-lg">
+            <i class="fa-solid fa-triangle-exclamation text-lg"></i>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-rose-700 flex items-center">
+          <i class="fa-solid fa-bell mr-1"></i> High churn risk (₹29,000 paid)
+        </div>
+      </div>
+
+      <!-- Actionable Exceptions -->
+      <div class="bg-white p-5 rounded-xl border border-amber-200 shadow-sm hover:shadow-md transition">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-xs font-semibold text-amber-700 uppercase tracking-wider">Triage Exceptions</p>
+            <h3 class="text-2xl font-bold text-amber-600 mt-1">4</h3>
+          </div>
+          <div class="p-2 bg-amber-100 text-amber-700 rounded-lg">
+            <i class="fa-solid fa-arrows-split-up-and-left text-lg"></i>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-slate-600 flex items-center">
+          Ghost, installment, capacity, batch
+        </div>
+      </div>
+
+      <!-- Hours Saved -->
+      <div class="bg-white p-5 rounded-xl border border-blue-200 shadow-sm hover:shadow-md transition bg-gradient-to-br from-white to-blue-50/30">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-xs font-semibold text-blue-700 uppercase tracking-wider">Ops Time Saved</p>
+            <h3 class="text-2xl font-bold text-blue-600 mt-1">18.5 <span class="text-sm font-normal text-slate-500">hrs/wk</span></h3>
+          </div>
+          <div class="p-2 bg-blue-100 text-blue-700 rounded-lg">
+            <i class="fa-solid fa-hourglass-end text-lg"></i>
+          </div>
+        </div>
+        <div class="mt-3 text-xs text-blue-700 flex items-center">
+          <i class="fa-solid fa-arrow-down mr-1"></i> 78% reduction in manual clicks
+        </div>
+      </div>
+    </div>
+
+    <!-- Alert Banner for Stuck Invoices >12h -->
+    <div class="bg-rose-50 border-l-4 border-rose-500 p-4 rounded-r-xl shadow-sm">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <span class="text-rose-500 text-xl"><i class="fa-solid fa-circle-exclamation"></i></span>
+          <div>
+            <h4 class="text-sm font-bold text-rose-900">Critical Action Required: 2 Paid Invoices Have No Faculty Renewal Form (>12h)</h4>
+            <p class="text-xs text-rose-700 mt-0.5">Parent paid but classes are NOT scheduled because teacher has not submitted the form. Automated WhatsApp nudges have been dispatched.</p>
+          </div>
+        </div>
+        <div class="space-x-2">
+          <button class="bg-rose-600 hover:bg-rose-700 text-white text-xs px-3 py-1.5 rounded-lg font-medium shadow-sm transition">
+            <i class="fa-solid fa-paper-plane mr-1"></i> Resend Teacher Nudges
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Tabs -->
+    <div class="flex border-b border-slate-200 space-x-8">
+      <button onclick="switchTab('zero-touch')" id="tab-btn-zero-touch" class="pb-3 text-sm font-semibold border-b-2 border-indigo-600 text-indigo-600 transition">
+        ⚡ Zero-Touch Auto-Approved (7)
+      </button>
+      <button onclick="switchTab('exceptions')" id="tab-btn-exceptions" class="pb-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition">
+        ⚠️ Flagged Exceptions & Reason Codes (10)
+      </button>
+      <button onclick="switchTab('stuck')" id="tab-btn-stuck" class="pb-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition">
+        🚨 Stuck Invoices & Orphan Radar (2)
+      </button>
+      <button onclick="switchTab('comms')" id="tab-btn-comms" class="pb-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition">
+        💬 Automated WhatsApp & Slack Logs (18)
+      </button>
+    </div>
+
+    <!-- TAB 1: ZERO-TOUCH AUTO-APPROVED -->
+    <div id="tab-zero-touch" class="space-y-4">
+      <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+        <div class="px-6 py-4 border-b border-slate-100 flex justify-between items-center bg-slate-50">
+          <div>
+            <h3 class="font-bold text-slate-800 text-sm">Instant Scheduled Renewals (Zero Manual Ops Touch)</h3>
+            <p class="text-xs text-slate-500">Directly written into <code>class_schedule_bookings</code> with active capacity verification</p>
+          </div>
+          <span class="text-xs font-semibold bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded-full">100% Data Integrity Verified</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-slate-600">
+            <thead class="bg-slate-100 text-slate-700 uppercase font-semibold text-[10px] tracking-wider border-b border-slate-200">
+              <tr>
+                <th class="px-4 py-3">Booking ID</th>
+                <th class="px-4 py-3">Invoice / Student</th>
+                <th class="px-4 py-3">Parent</th>
+                <th class="px-4 py-3">Educator & Batch</th>
+                <th class="px-4 py-3">Schedule Slot</th>
+                <th class="px-4 py-3">Amount</th>
+                <th class="px-4 py-3">Resolution Mechanism</th>
+                <th class="px-4 py-3">Status</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 font-medium">
+              <tr class="hover:bg-slate-50">
+                <td class="px-4 py-3 font-mono font-bold text-indigo-600">AUTO-BKG-1001</td>
+                <td class="px-4 py-3">#84901 • Aa***v Sh***a (68101)</td>
+                <td class="px-4 py-3">Pr***a Sh***a</td>
+                <td class="px-4 py-3">Ms. Rhea B*** <br><span class="text-slate-400 text-[10px]">YC-G4-Batch-A (9201)</span></td>
+                <td class="px-4 py-3">Tue,Thu @ 17:00</td>
+                <td class="px-4 py-3 font-semibold text-slate-900">₹12,000</td>
+                <td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded text-[11px]">Happy Path Standard</span></td>
+                <td class="px-4 py-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-[11px] font-bold">Scheduled</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="px-4 py-3 font-mono font-bold text-indigo-600">AUTO-BKG-1002</td>
+                <td class="px-4 py-3">#84902 • Di***a Na***r (68102)</td>
+                <td class="px-4 py-3">Ka***k Na***r</td>
+                <td class="px-4 py-3">Mr. Vikram S*** <br><span class="text-slate-400 text-[10px]">BM-G5-Batch-C (9202)</span></td>
+                <td class="px-4 py-3">Mon,Wed @ 18:00</td>
+                <td class="px-4 py-3 font-semibold text-slate-900">₹10,500</td>
+                <td class="px-4 py-3"><span class="bg-amber-50 text-amber-700 px-2 py-0.5 rounded text-[11px]">Recovered Ops Drop-off</span></td>
+                <td class="px-4 py-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-[11px] font-bold">Scheduled</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="px-4 py-3 font-mono font-bold text-indigo-600">AUTO-BKG-1003</td>
+                <td class="px-4 py-3">#84903 • Ka***r Ve***a (68103)</td>
+                <td class="px-4 py-3">Ne***a Ve***a</td>
+                <td class="px-4 py-3">Acharya Nancy S*** <br><span class="text-slate-400 text-[10px]">LY-G3-Batch-B (9203)</span></td>
+                <td class="px-4 py-3">Wed,Fri @ 16:30</td>
+                <td class="px-4 py-3 font-semibold text-slate-900">₹9,000</td>
+                <td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded text-[11px]">Unapproved Form Auto-Cleared</span></td>
+                <td class="px-4 py-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-[11px] font-bold">Scheduled</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="px-4 py-3 font-mono font-bold text-indigo-600">AUTO-BKG-1004</td>
+                <td class="px-4 py-3">#84904 • An***a Iy***r (68104)</td>
+                <td class="px-4 py-3">Ri***u Iy***r</td>
+                <td class="px-4 py-3">Ms. Rhea B*** <br><span class="text-slate-400 text-[10px]">YC-G4-Batch-A (9201)</span></td>
+                <td class="px-4 py-3">Tue,Thu @ 17:00</td>
+                <td class="px-4 py-3 font-semibold text-slate-900">₹12,000</td>
+                <td class="px-4 py-3"><span class="bg-purple-50 text-purple-700 px-2 py-0.5 rounded text-[11px]">Mother Phone Fuzzy Match</span></td>
+                <td class="px-4 py-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-[11px] font-bold">Scheduled</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="px-4 py-3 font-mono font-bold text-indigo-600">AUTO-BKG-1005</td>
+                <td class="px-4 py-3">#84907 • Vi***n Jo***i (68107)</td>
+                <td class="px-4 py-3">Po***a Jo***i</td>
+                <td class="px-4 py-3">Ms. Simran D*** <br><span class="text-slate-400 text-[10px]">PH-G1-Batch-F (9207)</span></td>
+                <td class="px-4 py-3">Mon,Thu @ 15:30</td>
+                <td class="px-4 py-3 font-semibold text-slate-900">₹7,600</td>
+                <td class="px-4 py-3"><span class="bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded text-[11px]">20% Retention Scholarship Verified</span></td>
+                <td class="px-4 py-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-[11px] font-bold">Scheduled</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="px-4 py-3 font-mono font-bold text-indigo-600">AUTO-BKG-1006</td>
+                <td class="px-4 py-3">#84908 • Si***a Ma***a (68108)</td>
+                <td class="px-4 py-3">Ro***n Ma***a</td>
+                <td class="px-4 py-3">Acharya Nancy S*** <br><span class="text-slate-400 text-[10px]">LY-US-Batch-G (9208)</span></td>
+                <td class="px-4 py-3">Sat,Sun @ 09:30</td>
+                <td class="px-4 py-3 font-semibold text-slate-900">₹22,000</td>
+                <td class="px-4 py-3"><span class="bg-slate-100 text-slate-700 px-2 py-0.5 rounded text-[11px]">Browser Freeze Deduplicated</span></td>
+                <td class="px-4 py-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-[11px] font-bold">Scheduled</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="px-4 py-3 font-mono font-bold text-indigo-600">AUTO-BKG-1007</td>
+                <td class="px-4 py-3">#84913 • De***a Me***a (68113)</td>
+                <td class="px-4 py-3">Ar***n Me***a</td>
+                <td class="px-4 py-3">Ms. Mary M*** <br><span class="text-slate-400 text-[10px]">SC-G4-Batch-K (9213)</span></td>
+                <td class="px-4 py-3">Tue,Thu @ 18:00</td>
+                <td class="px-4 py-3 font-semibold text-slate-900">₹11,500</td>
+                <td class="px-4 py-3"><span class="bg-rose-50 text-rose-700 px-2 py-0.5 rounded text-[11px]">Transposed Typo (84931&rarr;84913)</span></td>
+                <td class="px-4 py-3"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-[11px] font-bold">Scheduled</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: FLAGGED EXCEPTIONS -->
+    <div id="tab-exceptions" class="hidden space-y-4">
+      <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+        <div class="px-6 py-4 border-b border-slate-100 flex justify-between items-center bg-slate-50">
+          <div>
+            <h3 class="font-bold text-slate-800 text-sm">Actionable Exception Triage Queue</h3>
+            <p class="text-xs text-slate-500">Every record categorized with exact reason code, impact level, and automated remediation workflow</p>
+          </div>
+          <span class="text-xs font-semibold bg-rose-100 text-rose-800 px-2.5 py-1 rounded-full">3 Critical • 1 High • 2 Med • 4 Low</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-slate-600">
+            <thead class="bg-slate-100 text-slate-700 uppercase font-semibold text-[10px] tracking-wider border-b border-slate-200">
+              <tr>
+                <th class="px-4 py-3">Severity</th>
+                <th class="px-4 py-3">Reason Code</th>
+                <th class="px-4 py-3">Invoice / Student</th>
+                <th class="px-4 py-3">Root Cause Description</th>
+                <th class="px-4 py-3">Automated Remediation</th>
+                <th class="px-4 py-3">Owner</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 font-medium">
+              <tr class="bg-rose-50/50">
+                <td class="px-4 py-3"><span class="bg-rose-600 text-white font-bold px-2 py-0.5 rounded text-[10px]">CRITICAL</span></td>
+                <td class="px-4 py-3 font-mono font-bold text-rose-700">ERR_PAYMENT_FAILED_GHOST</td>
+                <td class="px-4 py-3">#84911 • Is***n Gu***a</td>
+                <td class="px-4 py-3">Payment Failed at Razorpay gateway. Educator submitted form based on unverified UPI screenshot.</td>
+                <td class="px-4 py-3 text-slate-800">Booking blocked. WhatsApp retry link sent to parent.</td>
+                <td class="px-4 py-3 font-bold text-slate-700">Parent / Ops</td>
+              </tr>
+              <tr class="bg-rose-50/50">
+                <td class="px-4 py-3"><span class="bg-rose-600 text-white font-bold px-2 py-0.5 rounded text-[10px]">CRITICAL</span></td>
+                <td class="px-4 py-3 font-mono font-bold text-rose-700">ERR_ORPHANED_INVOICE_24H</td>
+                <td class="px-4 py-3">#84906 • Zo***a Kh***n</td>
+                <td class="px-4 py-3">₹18,000 paid via Stripe (GCC) 44h ago. Teacher Rhea B*** never filed renewal form. Child classes stopped.</td>
+                <td class="px-4 py-3 text-slate-800">Automated WhatsApp prompt sent to educator with 1-click confirm link.</td>
+                <td class="px-4 py-3 font-bold text-slate-700">Teacher / Ops</td>
+              </tr>
+              <tr class="bg-rose-50/50">
+                <td class="px-4 py-3"><span class="bg-rose-600 text-white font-bold px-2 py-0.5 rounded text-[10px]">CRITICAL</span></td>
+                <td class="px-4 py-3 font-mono font-bold text-rose-700">ERR_ORPHANED_INVOICE_24H</td>
+                <td class="px-4 py-3">#84910 • My***a Re***y</td>
+                <td class="px-4 py-3">₹11,000 paid 25h ago. Teacher Arvind K*** has not submitted renewal form.</td>
+                <td class="px-4 py-3 text-slate-800">Automated educator reminder sent; auto-booking staged for same batch.</td>
+                <td class="px-4 py-3 font-bold text-slate-700">Teacher / Ops</td>
+              </tr>
+              <tr class="bg-amber-50/40">
+                <td class="px-4 py-3"><span class="bg-amber-500 text-white font-bold px-2 py-0.5 rounded text-[10px]">HIGH</span></td>
+                <td class="px-4 py-3 font-mono font-bold text-amber-700">ERR_BATCH_CAPACITY_FULL</td>
+                <td class="px-4 py-3">#84905 • Re***h Pa***l</td>
+                <td class="px-4 py-3">Batch 9205 reached maximum capacity (6/6). Cannot book without exceeding group limit.</td>
+                <td class="px-4 py-3 text-slate-800">WhatsApp sent offering 2 alternative slot options. Seat held for 24h.</td>
+                <td class="px-4 py-3 font-bold text-slate-700">Parent / Ops</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3"><span class="bg-blue-500 text-white font-bold px-2 py-0.5 rounded text-[10px]">MEDIUM</span></td>
+                <td class="px-4 py-3 font-mono font-bold text-blue-700">ACTION_BATCH_CHANGE</td>
+                <td class="px-4 py-3">#84912 • Ta***a Me***n</td>
+                <td class="px-4 py-3">Parent requested schedule change from Wed-Fri to Sat-Sun 11:00 AM.</td>
+                <td class="px-4 py-3 text-slate-800">Sent interactive batch picker link to parent.</td>
+                <td class="px-4 py-3 font-bold text-slate-700">Parent</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3"><span class="bg-blue-500 text-white font-bold px-2 py-0.5 rounded text-[10px]">MEDIUM</span></td>
+                <td class="px-4 py-3 font-mono font-bold text-blue-700">ERR_INSTALLMENT_MISMATCH</td>
+                <td class="px-4 py-3">#84909 • Ad***t Ku***i</td>
+                <td class="px-4 py-3">Parent paid ₹5,250 (Installment 1). Educator requested full 24 sessions instead of 12.</td>
+                <td class="px-4 py-3 text-slate-800">Auto-adjusted to 12 sessions. Installment 2 reminder scheduled.</td>
+                <td class="px-4 py-3 font-bold text-slate-700">Ops / System</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: STUCK INVOICES RADAR -->
+    <div id="tab-stuck" class="hidden space-y-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Stuck Invoice 1 -->
+        <div class="bg-white rounded-xl border border-rose-200 p-5 shadow-sm space-y-3">
+          <div class="flex justify-between items-start">
+            <div>
+              <span class="bg-rose-100 text-rose-800 text-[11px] font-bold px-2 py-0.5 rounded">STUCK 44 HOURS (SLA BREACHED)</span>
+              <h4 class="font-bold text-slate-900 text-base mt-2">Invoice #84906 — Zo***a Kh***n (GCC Track)</h4>
+              <p class="text-xs text-slate-500">Parent: Fa***n Kh***n (+971-5012XXX06) • Dubai, UAE</p>
+            </div>
+            <div class="text-right">
+              <span class="text-lg font-bold text-rose-600">₹18,000</span>
+              <p class="text-[10px] text-slate-400">Card via Stripe</p>
+            </div>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg text-xs space-y-1">
+            <div class="flex justify-between">
+              <span class="text-slate-500">Paid Timestamp:</span>
+              <span class="font-semibold text-slate-800">2026-11-02 16:00:00</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-500">Assigned Educator:</span>
+              <span class="font-semibold text-slate-800">Ms. Rhea B*** (ID: 1102)</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-500">Current Batch:</span>
+              <span class="font-semibold text-slate-800">YC-GCC-Batch-E (Capacity: 5/6)</span>
+            </div>
+            <div class="flex justify-between text-rose-600 font-bold">
+              <span>Failure Mode:</span>
+              <span>Educator never filed renewal form. Zero ops visibility.</span>
+            </div>
+          </div>
+          <div class="flex space-x-2 pt-2">
+            <button class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold py-2 rounded-lg transition">
+              <i class="fa-solid fa-bolt mr-1"></i> Auto-Approve into Batch 9206 (Capacity 5/6 Available)
+            </button>
+            <button class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs px-3 py-2 rounded-lg font-medium transition">
+              <i class="fa-brands fa-whatsapp text-emerald-600 mr-1"></i> Nudge Rhea
+            </button>
+          </div>
+        </div>
+
+        <!-- Stuck Invoice 2 -->
+        <div class="bg-white rounded-xl border border-rose-200 p-5 shadow-sm space-y-3">
+          <div class="flex justify-between items-start">
+            <div>
+              <span class="bg-rose-100 text-rose-800 text-[11px] font-bold px-2 py-0.5 rounded">STUCK 25 HOURS (SLA BREACHED)</span>
+              <h4 class="font-bold text-slate-900 text-base mt-2">Invoice #84910 — My***a Re***y</h4>
+              <p class="text-xs text-slate-500">Parent: Vi***m Re***y (+91-9800XXXX10)</p>
+            </div>
+            <div class="text-right">
+              <span class="text-lg font-bold text-rose-600">₹11,000</span>
+              <p class="text-[10px] text-slate-400">UPI via Razorpay</p>
+            </div>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg text-xs space-y-1">
+            <div class="flex justify-between">
+              <span class="text-slate-500">Paid Timestamp:</span>
+              <span class="font-semibold text-slate-800">2026-11-03 11:20:45</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-500">Assigned Educator:</span>
+              <span class="font-semibold text-slate-800">Coach Arvind K*** (ID: 1122)</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-500">Current Batch:</span>
+              <span class="font-semibold text-slate-800">CM-G2-Batch-I (Capacity: 5/6)</span>
+            </div>
+            <div class="flex justify-between text-rose-600 font-bold">
+              <span>Failure Mode:</span>
+              <span>Paid invoice has no faculty form. Risk of missed class.</span>
+            </div>
+          </div>
+          <div class="flex space-x-2 pt-2">
+            <button class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold py-2 rounded-lg transition">
+              <i class="fa-solid fa-bolt mr-1"></i> Auto-Approve into Batch 9210 (Capacity 5/6 Available)
+            </button>
+            <button class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs px-3 py-2 rounded-lg font-medium transition">
+              <i class="fa-brands fa-whatsapp text-emerald-600 mr-1"></i> Nudge Arvind
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: COMMS LOGS -->
+    <div id="tab-comms" class="hidden space-y-4">
+      <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+        <div class="px-6 py-4 border-b border-slate-100 flex justify-between items-center bg-slate-50">
+          <div>
+            <h3 class="font-bold text-slate-800 text-sm">Dispatched Communication Activity</h3>
+            <p class="text-xs text-slate-500">Targeted, automated touchpoints sent via WhatsApp API and Ops Slack</p>
+          </div>
+          <span class="text-xs font-semibold bg-indigo-100 text-indigo-800 px-2.5 py-1 rounded-full">18 Automated Messages</span>
+        </div>
+        <div class="divide-y divide-slate-100">
+          <div class="p-4 flex items-start space-x-3">
+            <span class="text-emerald-500 text-xl"><i class="fa-brands fa-whatsapp"></i></span>
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-xs text-slate-800">To Parent: Me***a Pa***l (Re***h Pa***l)</span>
+                <span class="text-[10px] text-slate-400">Trigger: ERR_BATCH_CAPACITY_EXCEEDED</span>
+              </div>
+              <p class="text-xs text-slate-600 mt-1 bg-slate-50 p-2.5 rounded border border-slate-100">
+                "Dear Me***a Pa***l, your renewal payment for Re***h Pa***l is confirmed! However, current batch CM-G4-Batch-D has reached maximum student capacity. Our team has reserved two parallel slots for you with Coach Arvind: [Option 1: Tue-Thu 5 PM] [Option 2: Sat-Sun 10 AM]. Reply 1 or 2 to confirm instantly."
+              </p>
+            </div>
+          </div>
+          <div class="p-4 flex items-start space-x-3">
+            <span class="text-purple-600 text-xl"><i class="fa-brands fa-slack"></i></span>
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-xs text-slate-800">To Channel: #ops-renewals-escalations</span>
+                <span class="text-[10px] text-slate-400">Trigger: ERR_PAYMENT_FAILED_GHOST</span>
+              </div>
+              <p class="text-xs text-slate-600 mt-1 bg-slate-50 p-2.5 rounded border border-slate-100">
+                "🚨 *CRITICAL:* Ghost renewal prevented for Student 68111. Invoice 84911 marked Failed at gateway, but Educator Ms. Simran filed Form 3311 based on UPI screenshot. Parent notified to retry."
+              </p>
+            </div>
+          </div>
+          <div class="p-4 flex items-start space-x-3">
+            <span class="text-emerald-500 text-xl"><i class="fa-brands fa-whatsapp"></i></span>
+            <div class="flex-1">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-xs text-slate-800">To Educator: Ms. Rhea B***</span>
+                <span class="text-[10px] text-slate-400">Trigger: ERR_ORPHANED_INVOICE_CRITICAL_24H</span>
+              </div>
+              <p class="text-xs text-slate-600 mt-1 bg-slate-50 p-2.5 rounded border border-slate-100">
+                "🔔 Reminder: Parent of Zo***a Kh***n paid renewal fee (INR 18000.00) on 2026-11-02 16:00:00. Please confirm their continuation with 1-tap: https://bambinos.live/faculty/quick-confirm?inv=84906"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 py-4 px-8 text-center text-xs text-slate-500">
+    Bambinos.live Operations Case • AI Program Manager Hiring Assessment • Built for Head of Operations Review
+  </footer>
+
+  <script>
+    function switchTab(tabName) {
+      const tabs = ['zero-touch', 'exceptions', 'stuck', 'comms'];
+      tabs.forEach(t => {
+        document.getElementById('tab-' + t).classList.add('hidden');
+        document.getElementById('tab-btn-' + t).className = 'pb-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition';
+      });
+      document.getElementById('tab-' + tabName).classList.remove('hidden');
+      document.getElementById('tab-btn-' + tabName).className = 'pb-3 text-sm font-semibold border-b-2 border-indigo-600 text-indigo-600 transition';
+    }
+  </script>
+</body>
+</html>
+
